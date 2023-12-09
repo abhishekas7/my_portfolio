@@ -1,0 +1,5 @@
+.blurcircle {
+    border-radius: 315px;
+background: #0B475E;
+filter: blur(90px);
+}

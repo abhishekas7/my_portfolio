@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         'color-1': '#0F172A',
-        'color-2' : '#656d82'
+        'color-2' : '#656d82',
+        'color-3' :'#0B475E',
       },
       screens: {
         'sm': '640px',
