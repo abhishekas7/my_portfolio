@@ -3,3 +3,34 @@
 background: #0B475E;
 filter: blur(90px);
 }
+
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%; 
+    overflow: hidden;
+  }
+  .nameStroke {
+    color: transparent; /* Make the text transparent */
+    -webkit-text-fill-color: transparent; /* Webkit browsers support this property for text fill color */
+    font-size: 80px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 18px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+  }
+  
+  
+  .video-container video {
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
